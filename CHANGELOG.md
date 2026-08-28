@@ -11,3 +11,7 @@
 - Android application ID is now `com.getwinharris.bapxcut`: installs separately from upstream and older local builds; private data is not automatically migrated.
 - Preserve upstream license/history while removing misleading fork-specific service links.
 - Add deterministic repository mapping, CI freshness checks, Robolectric onboarding regressions, agent discovery aliases, accurate architecture guidance and explicit verification/publication rules.
+
+### Development workflow
+- Document issue-linked branches, review-gated pull requests, benchmark evidence and release/APK provenance.
+- Add a PR template covering verification, compatibility, risks and remaining work.

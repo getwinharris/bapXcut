@@ -43,3 +43,6 @@
 
 ## Instruction discovery
 `AGENTS.md` is canonical. It replaces `Agents.md` to avoid case-only filename collisions on macOS. `GEMINI.md` and `claude.md` point here; do not create a second case variant.
+
+## Git-based delivery
+Follow `docs/DEVELOPMENT.md`: issue -> scoped branch -> reviewed commits -> PR -> CI/review -> authorized merge. Do not push feature work directly to main. Link issues and retain source/APK provenance. Benchmark #3 before optimization #5; local AI provenance/integrity is tracked in #2. Release versions/tags require deliberate authorization and must not be bumped for routine commits.

@@ -28,3 +28,17 @@
 - Remaining old text: upstream attribution and historical changelog. `src/images/featureGraphic.png` visibly retains upstream name/pink UI; historical screenshots and artwork need replacement before release promotion.
 - Remaining workflow improvements: pinned Android build container; reviewed Roborazzi baselines and device import/edit/export CUJs; reconcile the separate non-Git local experimental source folder before publishing its AI work.
 - This outcome update changes documentation only; the application and tests are identical to the passing CI commit. No signed release was created.
+
+## 2026-08-28 Git workflow and AI audit
+- Created #2 AI artifact/provenance, #3 same-device APK comparison, #4 Git workflow, and #5 measured optimization (depends on #3).
+- User identifies the roughly 14 MB local `needle` file as the model artifact. It is an ARM64 ELF executable; embedded model identity is unverified. No separate named weights/config were found. Its 13,654,573-byte file is shorter than a declared load segment end (14,817,416); do not execute/publish until integrity is verified.
+- Local AI purpose is prompt -> JSON add/remove edit commands; no processAiPrompt UI caller found. This experimental tree remains unpublished.
+- Added docs/DEVELOPMENT.md and a PR template on docs/4-git-workflow, not main. No benchmark/optimization has been run. ADB and Docker were not found on PATH.
+- Classic main branch protection reports unprotected; rulesets have not been audited and settings were not changed.
+- Documentation changes do not change application architecture; map regeneration is unnecessary, but freshness and Python checks must pass.
+
+### Needle2 research correction
+- Official Cactus/Hugging Face documentation confirms Needle2 is a 45M-parameter CQ2-bit model packaged with weights inside its approximately 14 MB engine binary; a separate base weights file is not required. Earlier uncertainty about embedded weights is superseded by this research.
+- Sources: https://www.cactuscompute.com/needle and https://huggingface.co/Cactus-Compute/needle2 . Cactus reports approximately 28 MB session RAM; bapXcut has not measured this.
+- Actual integration gap: documented response type=call/function_calls[name, arguments] differs from local type=add_operation/remove_operation parsing. Documented CLI uses --tools and --prompt or --serve; do not assume the current bare-process line protocol works.
+- Updated #2 to track Needle2 integration, retaining local-copy integrity validation as a separate concern. #3 benchmarks and #5 measured optimization remain pending.
