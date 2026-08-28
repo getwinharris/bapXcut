@@ -11,3 +11,6 @@
 - Android application ID is now `com.getwinharris.bapxcut`: installs separately from upstream and older local builds; private data is not automatically migrated.
 - Preserve upstream license/history while removing misleading fork-specific service links.
 - Add deterministic repository mapping, CI freshness checks, Robolectric onboarding regressions, agent discovery aliases, accurate architecture guidance and explicit verification/publication rules.
+
+### Needle2 integration research
+- Add version-pinned fine-tuning/deployment guidance and proposed editing-tool JSONL examples; no model trained or runtime integration shipped.
