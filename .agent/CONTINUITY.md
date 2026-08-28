@@ -36,3 +36,9 @@
 - Added docs/DEVELOPMENT.md and a PR template on docs/4-git-workflow, not main. No benchmark/optimization has been run. ADB and Docker were not found on PATH.
 - Classic main branch protection reports unprotected; rulesets have not been audited and settings were not changed.
 - Documentation changes do not change application architecture; map regeneration is unnecessary, but freshness and Python checks must pass.
+
+### Needle2 research correction
+- Official Cactus/Hugging Face documentation confirms Needle2 is a 45M-parameter CQ2-bit model packaged with weights inside its approximately 14 MB engine binary; a separate base weights file is not required. Earlier uncertainty about embedded weights is superseded by this research.
+- Sources: https://www.cactuscompute.com/needle and https://huggingface.co/Cactus-Compute/needle2 . Cactus reports approximately 28 MB session RAM; bapXcut has not measured this.
+- Actual integration gap: documented response type=call/function_calls[name, arguments] differs from local type=add_operation/remove_operation parsing. Documented CLI uses --tools and --prompt or --serve; do not assume the current bare-process line protocol works.
+- Updated #2 to track Needle2 integration, retaining local-copy integrity validation as a separate concern. #3 benchmarks and #5 measured optimization remain pending.
