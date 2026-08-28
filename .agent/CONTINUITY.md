@@ -15,7 +15,16 @@
 - Project links target getwinharris/bapXcut and https://bapx.in. Removed unsupported fork-specific store/community/funding claims. Original license and historical attribution remain.
 - Applied black/slate-blue/purple palette and replaced inherited hardcoded pink selection accents.
 - Corrected actual architecture to XML/ViewBinding, added discoverable AGENTS.md, fail-fast verification guidance, secret ignore rules, deterministic map checking and test-report artifacts.
-- Prior CI run 33165126506 passed assemble, lint and unit test steps. New rebrand CI still needs verification after publication.
+- Prior CI run 33165126506 passed assemble, lint and unit test steps. Rebrand CI 33165620835 passed for source commit 8bd9b6a.
 - Local map generator checks passed; Robolectric onboarding identity/theme coverage added. Device screenshots, export CUJs and signed release validation remain outstanding.
 - No local container runtime is available. Use hosted CI for Android verification. A pinned repository build container remains future work.
 - Canonical rules renamed from Agents.md to AGENTS.md; case-only duplicate files cannot coexist reliably on macOS. Gemini/Claude pointers use AGENTS.md.
+
+### Verified outcome
+- Published rebrand/map/workflow in `87f983c`, locale regression protection in `8bd9b6a`.
+- https://github.com/getwinharris/bapXcut/actions/runs/33165620835 completed successfully: five Python map/branding checks, assembleDebug, lintDebug and testDebugUnitTest.
+- Downloaded unit test artifact: BrandingTest ran two tests and ExampleUnitTest ran one; zero failures, errors or skips. APK, lint and unit test reports were uploaded.
+- Verified GitHub homepage is https://bapx.in and repository description identifies bapXcut.
+- Remaining old text: upstream attribution and historical changelog. `src/images/featureGraphic.png` visibly retains upstream name/pink UI; historical screenshots and artwork need replacement before release promotion.
+- Remaining workflow improvements: pinned Android build container; reviewed Roborazzi baselines and device import/edit/export CUJs; reconcile the separate non-Git local experimental source folder before publishing its AI work.
+- This outcome update changes documentation only; the application and tests are identical to the passing CI commit. No signed release was created.
