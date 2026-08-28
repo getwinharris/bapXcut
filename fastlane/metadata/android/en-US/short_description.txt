@@ -1,1 +1,1 @@
-LibreCuts is a free, open-source privacy friendly video editor for Android.
+bapXcut is a free, open-source privacy friendly video editor for Android.

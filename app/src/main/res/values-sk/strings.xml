@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="str_loop">Slučka</string>
-    <string name="app_name">LibreCuts</string>
+    <string name="app_name">bapXcut</string>
     <string name="trim">Orezanie</string>
     <string name="split">Rozdeliť</string>
     <string name="export">Exportovať</string>
@@ -18,7 +18,7 @@
     <string name="str_low_quality_fastest">Nízka kvalita (najrýchlejšie)</string>
     <string name="str_smallest_file_size_fastest_exp">Najmenšia veľkosť súboru, najrýchlejší export</string>
     <string name="str_export_location">Miesto exportu</string>
-    <string name="str_downloads_librecuts">Stiahnuť/LibreCuts</string>
+    <string name="str_downloads_bapxcut">Stiahnuť/bapXcut</string>
     <string name="str_preview">NÁHĽAD</string>
     <string name="str_0_00_0_00">0:00 / 0:00</string>
     <string name="str_timeline_empty">Časová os je prázdna</string>
@@ -54,16 +54,16 @@
     <string name="str_settings">Nastavenia</string>
     <string name="str_general">Všeobecné</string>
     <string name="str_export_folder">Priečinok na export</string>
-    <string name="str_default_movies_librecuts">Predvolené (Movies/LibreCuts)</string>
+    <string name="str_default_movies_bapxcut">Predvolené (Movies/bapXcut)</string>
     <string name="str_check_for_updates">Skontrolovať dostupnosť aktualizácií</string>
     <string name="str_manually_check_for_the_latest">Manuálne skontrolovať, či je k dispozícii najnovšia verzia</string>
     <string name="str_v1_0_beta4">v1.0-beta5</string>
     <string name="str_a_privacy_friendly_open_source">Videoeditor s ohľadom na súkromie a s otvoreným zdrojovým kódom pre Android.\nUložte si lokálne videá bez vodoznaku.</string>
     <string name="str_support_amp_feedback">Podpora a spätná väzba</string>
-    <string name="str_librecuts_is_open_source_help">LibreCuts je projekt s otvoreným zdrojovým kódom. Pomôžte nám ho vylepšiť tým, že projekt označíte hviezdičkou na GitHub-e alebo nahlásite chyby.</string>
+    <string name="str_bapxcut_is_open_source_help">bapXcut je projekt s otvoreným zdrojovým kódom. Pomôžte nám ho vylepšiť tým, že projekt označíte hviezdičkou na GitHub-e alebo nahlásite chyby.</string>
     <string name="str_star_on_github">Dajte hviezdičku na GitHub-e</string>
     <string name="str_report_a_bug">Nahlásiť chybu</string>
-    <string name="str_sponsor_project">Sponzorovať projekt</string>
+    <string name="str_sponsor_project">bapX Website</string>
     <string name="str_made_by_tharun_birla">Vytvoril Tharun Birla</string>
     <string name="str_fade_in">Postupné rozjasnenie</string>
     <string name="str_0_0s">0.0s</string>
@@ -72,9 +72,9 @@
     <string name="str_free_open_source_limitless">Bezplatný. S otvoreným zdrojovým kódom. Bez obmedzení.</string>
     <string name="str_community_amp_support">KOMUNITA A PODPORA</string>
     <string name="str_show_your_appreciation_by_star">Prejavte svoje uznanie tým, že označíte príspevok hviezdičkou</string>
-    <string name="str_github_sponsors">GitHub sponzori</string>
+    <string name="str_github_sponsors">bapX Website</string>
     <string name="str_support_our_open_source_develo">Priamo podporte náš vývoj v rámci open source</string>
-    <string name="str_discord_server">Discord Server</string>
+    <string name="str_discord_server">Community Support</string>
     <string name="str_join_us_for_app_updates_and_co">Pripojte sa k nám a získajte novinky o aplikácii a prístup ku komunitnému chatu</string>
     <string name="str_troubleshooting_amp_wiki_guide">Riešenie problémov a návod na Wiki</string>
     <string name="str_if_you_encounter_any_export_is">Ak narazíte na akékoľvek problémy s exportom alebo chyby pri vykresľovaní, kliknite sem a prečítajte si náš návod na wiki, kde nájdete informácie o riešení problémov a chybových kódoch.</string>
@@ -109,14 +109,14 @@
     <string name="toast_failed_to_save_video_to_galler">Nepodarilo sa uložiť video do galérie</string>
     <string name="toast_export_cancelled">Export bol zrušený</string>
     <string name="str_snapshot_export_folder">Priečinok na export snímok</string>
-    <string name="str_default_music_librecuts">Predvolené (Music/LibreCuts)</string>
-    <string name="str_default_pictures_librecuts">Predvolené (Pictures/LibreCuts)</string>
+    <string name="str_default_music_bapxcut">Predvolené (Music/bapXcut)</string>
+    <string name="str_default_pictures_bapxcut">Predvolené (Pictures/bapXcut)</string>
     <string name="str_app_language">Jazyk aplikácie</string>
     <string name="str_system_default">Predvolené nastavenie systému</string>
     <string name="str_opacity">Priehľadnosť</string>
     <string name="str_reset">Obnoviť</string>
-    <string name="str_help_translate">Preložiť LibreCuts</string>
-    <string name="str_contribute_translations_on_weblate">Prispejte prekladmi na Weblate</string>
+    <string name="str_help_translate">Preložiť bapXcut</string>
+    <string name="str_contribute_translations_on_weblate">Contribute translations on GitHub</string>
     <string name="str_fullscreen_editor">Editor na celú obrazovku</string>
     <string name="str_fullscreen_editor_desc">Skryť nástrojový panel a navigačný panel počas úprav</string>
     <string name="str_fullscreen_enabled_desc">Zapnuté (skryje nástrojový a navigačný panel)</string>

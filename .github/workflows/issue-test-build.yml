@@ -54,7 +54,7 @@ jobs:
         if: steps.extract_issue.outputs.issue_number != ''
         uses: actions/upload-artifact@v4
         with:
-          name: LibreCuts-Fix-Issue-${{ steps.extract_issue.outputs.issue_number }}
+          name: bapXcut-Fix-Issue-${{ steps.extract_issue.outputs.issue_number }}
           path: app/build/outputs/apk/debug/*.apk
           retention-days: 7
 
@@ -70,7 +70,7 @@ jobs:
           A test build has been automatically generated from branch `${{ github.ref_name }}` (Commit `${{ github.sha }}`).
 
           ### 📥 Download & Test APK:
-          - 🚀 **[Direct APK Download Link (nightly.link)](https://nightly.link/${{ github.repository }}/workflows/issue-test-build.yml/${{ github.sha }}/LibreCuts-Fix-Issue-${{ steps.extract_issue.outputs.issue_number }}.zip)**
+          - 🚀 **[Direct APK Download Link (nightly.link)](https://nightly.link/${{ github.repository }}/workflows/issue-test-build.yml/${{ github.sha }}/bapXcut-Fix-Issue-${{ steps.extract_issue.outputs.issue_number }}.zip)**
           - 📦 **[Alternative: GitHub Actions Build Artifacts](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})**
 
           ---

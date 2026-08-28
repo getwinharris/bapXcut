@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="str_loop">சுழற்சி</string>
-    <string name="app_name">LibreCuts</string>
+    <string name="app_name">bapXcut</string>
     <string name="trim">நறுக்கு</string>
     <string name="split">பிரி</string>
     <string name="export">ஏற்றுமதி</string>
@@ -18,7 +18,7 @@
     <string name="str_low_quality_fastest">குறைந்த தரம் (மிக விரைவானது)</string>
     <string name="str_smallest_file_size_fastest_exp">மிகக் குறைந்த கோப்பு அளவு, அதிவேக ஏற்றுமதி</string>
     <string name="str_export_location">ஏற்றுமதி இருப்பிடம்</string>
-    <string name="str_downloads_librecuts">Downloads/LibreCuts</string>
+    <string name="str_downloads_bapxcut">Downloads/bapXcut</string>
     <string name="str_preview">முன்னோட்டம்</string>
     <string name="str_0_00_0_00">0:00 / 0:00</string>
     <string name="str_timeline_empty">காலவரிசை காலியாக உள்ளது</string>
@@ -82,16 +82,16 @@
     <string name="str_settings">அமைப்புகள்</string>
     <string name="str_general">பொதுவானவை</string>
     <string name="str_export_folder">ஏற்றுமதி கோப்புறை</string>
-    <string name="str_default_movies_librecuts">Default (Movies/LibreCuts)</string>
+    <string name="str_default_movies_bapxcut">Default (Movies/bapXcut)</string>
     <string name="str_check_for_updates">புதுப்பிப்புகளைச் சரிபார்க்கவும்</string>
     <string name="str_manually_check_for_the_latest">புதிய பதிப்பை கைமுறையாகச் சரிபார்க்கவும்</string>
     <string name="str_v1_0_beta4">v1.0-beta5</string>
     <string name="str_a_privacy_friendly_open_source">ஆண்ட்ராய்டுக்கான தனியுரிமைக்கு முன்னுரிமை தரும் திறந்த மூல வீடியோ எடிட்டர்.\nவாட்டர்மார்க் இல்லாத வீடியோக்களை உங்கள் சாதனத்திலேயே ஏற்றுமதி செய்யுங்கள்.</string>
     <string name="str_support_amp_feedback">ஆதரவு &amp; கருத்துகள்</string>
-    <string name="str_librecuts_is_open_source_help">LibreCuts ஒரு திறந்த மூல திட்டம். GitHub இல் ஸ்டார் செய்வதன் மூலமோ அல்லது பிழைகளைப் புகாரளிப்பதன் மூலமோ இதை மேம்படுத்த எங்களுக்கு உதவுங்கள்.</string>
+    <string name="str_bapxcut_is_open_source_help">bapXcut ஒரு திறந்த மூல திட்டம். GitHub இல் ஸ்டார் செய்வதன் மூலமோ அல்லது பிழைகளைப் புகாரளிப்பதன் மூலமோ இதை மேம்படுத்த எங்களுக்கு உதவுங்கள்.</string>
     <string name="str_star_on_github">GitHub-இல் ஸ்டார் செய்யவும்</string>
     <string name="str_report_a_bug">பிழையைப் புகாரளிக்கவும்</string>
-    <string name="str_sponsor_project">திட்டத்திற்கு நிதியுதவி அளிக்கவும்</string>
+    <string name="str_sponsor_project">bapX Website</string>
     <string name="str_made_by_tharun_birla">உருவாக்கியவர் தருண் பிர்லா</string>
     <string name="str_fade_in">ஃபேட் இன்</string>
     <string name="str_0_0s">0.0s</string>
@@ -100,9 +100,9 @@
     <string name="str_free_open_source_limitless">இலவசம். திறந்த மூலம். எல்லையற்றது.</string>
     <string name="str_community_amp_support">சமூகம் &amp; ஆதரவு</string>
     <string name="str_show_your_appreciation_by_star">களஞ்சியத்திற்கு ஸ்டார் செய்து உங்கள் ஆதரவைத் தெரிவிக்கவும்</string>
-    <string name="str_github_sponsors">GitHub Sponsors</string>
+    <string name="str_github_sponsors">bapX Website</string>
     <string name="str_support_our_open_source_develo">எங்களது திறந்த மூல உருவாக்கத்திற்கு நேரடியாக ஆதரவளிக்கவும்</string>
-    <string name="str_discord_server">Discord சர்வர்</string>
+    <string name="str_discord_server">Community Support</string>
     <string name="str_join_us_for_app_updates_and_co">பயன்பாட்டுப் புதுப்பிப்புகள் மற்றும் சமூக உரையாடல்களுக்கு எங்களுடன் இணையுங்கள்</string>
     <string name="str_troubleshooting_amp_wiki_guide">சரிசெய்தல் &amp; விக்கி வழிகாட்டி</string>
     <string name="str_if_you_encounter_any_export_is">ஏற்றுமதி சிக்கல்கள் அல்லது ரெண்டரிங் பிழைகள் ஏதேனும் ஏற்பட்டால், பிழைக் குறியீடுகள் மற்றும் சரிசெய்தலுக்கான எங்கள் விக்கி வழிகாட்டியைப் படிக்க இங்கே தட்டவும்.</string>
@@ -151,14 +151,14 @@
     <string name="str_video_export_folder">வீடியோ ஏற்றுமதி கோப்புறை</string>
     <string name="str_audio_export_folder">ஆடியோ ஏற்றுமதி கோப்புறை</string>
     <string name="str_snapshot_export_folder">ஸ்னாப்ஷாட் ஏற்றுமதி கோப்புறை</string>
-    <string name="str_default_music_librecuts">Default (Music/LibreCuts)</string>
-    <string name="str_default_pictures_librecuts">Default (Pictures/LibreCuts)</string>
+    <string name="str_default_music_bapxcut">Default (Music/bapXcut)</string>
+    <string name="str_default_pictures_bapxcut">Default (Pictures/bapXcut)</string>
     <string name="str_app_language">பயன்பாட்டு மொழி</string>
     <string name="str_system_default">சாதன இயல்புநிலை</string>
     <string name="str_opacity">ஒளிபுகாமை</string>
     <string name="str_reset">மீட்டமை</string>
-    <string name="str_help_translate">LibreCuts-ஐ மொழிபெயர்க்கவும்</string>
-    <string name="str_contribute_translations_on_weblate">Weblate இல் மொழிபெயர்ப்புகளைப் பங்களிக்கவும்</string>
+    <string name="str_help_translate">bapXcut-ஐ மொழிபெயர்க்கவும்</string>
+    <string name="str_contribute_translations_on_weblate">Contribute translations on GitHub</string>
     <string name="str_fullscreen_editor">முழுத்திரை எடிட்டர்</string>
     <string name="str_fullscreen_editor_desc">எடிட் செய்யும் போது நிலைப்பட்டி மற்றும் வழிசெலுத்தல் பட்டியை மறைக்கவும்</string>
     <string name="str_fullscreen_enabled_desc">இயக்கப்பட்டது (நிலை &amp; வழிசெலுத்தல் பட்டியை மறைக்கிறது)</string>

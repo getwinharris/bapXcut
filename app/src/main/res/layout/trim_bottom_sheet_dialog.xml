@@ -67,7 +67,7 @@
                 android:clipToPadding="false" />
 
             <!-- Overlay our custom TrackTrimView with transparent fill but visible trim handles/border -->
-            <com.tharunbirla.librecuts.customviews.TrackTrimView
+            <com.getwinharris.bapxcut.customviews.TrackTrimView
                 android:id="@+id/trimTrackView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />

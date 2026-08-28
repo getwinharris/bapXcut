@@ -50,7 +50,7 @@ jobs:
             [ -f "$apk" ] || continue
             name=$(basename "$apk")
             arch=$(printf '%s' "$name" | sed -E 's/^app-(.+)-release-unsigned-signed\.apk$/\1/')
-            cp "$apk" "release-artifacts/LibreCuts-${arch}.apk"
+            cp "$apk" "release-artifacts/bapXcut-${arch}.apk"
           done
           ls -lh release-artifacts/
       - uses: softprops/action-gh-release@v3

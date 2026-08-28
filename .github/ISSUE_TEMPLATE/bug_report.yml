@@ -1,18 +1,18 @@
 name: 🐛 Bug Report
-description: Report a bug, crash, or rendering issue in LibreCuts
+description: Report a bug, crash, or rendering issue in bapXcut
 title: '[Bug]: '
 labels: ['bug']
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for helping improve **LibreCuts**! Please fill in as many details as possible so we can reproduce and fix the issue quickly.
+        Thank you for helping improve **bapXcut**! Please fill in as many details as possible so we can reproduce and fix the issue quickly.
 
   - type: textarea
     id: description
     attributes:
       label: Bug Description
-      description: What went wrong? Describe what happened while using LibreCuts.
+      description: What went wrong? Describe what happened while using bapXcut.
       placeholder: E.g., The app crashed while attempting to cut a 1080p video clip on the timeline...
     validations:
       required: true
@@ -23,7 +23,7 @@ body:
       label: Steps to Reproduce
       description: Step-by-step instructions to reproduce the issue.
       placeholder: |
-        1. Open LibreCuts and import a video
+        1. Open bapXcut and import a video
         2. Move seekbar to 00:05 and tap 'Cut'
         3. Select the second segment and tap 'Delete'
         4. See LC-500 Error / App crashes
@@ -34,7 +34,7 @@ body:
     id: error_code
     attributes:
       label: Error Code (If Displayed)
-      description: Did LibreCuts show an error code dialog?
+      description: Did bapXcut show an error code dialog?
       options:
         - None / No Error Screen
         - LC-101 (FFmpeg execution failed)
@@ -47,7 +47,7 @@ body:
     id: affected_feature
     attributes:
       label: Feature Affected
-      description: Which area of LibreCuts were you using when the bug occurred?
+      description: Which area of bapXcut were you using when the bug occurred?
       options:
         - Timeline / Cut / Split Clips
         - Media Import / Picker
@@ -88,7 +88,7 @@ body:
   - type: input
     id: app_version
     attributes:
-      label: LibreCuts App Version / Build
+      label: bapXcut App Version / Build
       description: E.g. v0.5.0-beta6 or git commit hash
       placeholder: E.g. v0.5.0-beta6
     validations:

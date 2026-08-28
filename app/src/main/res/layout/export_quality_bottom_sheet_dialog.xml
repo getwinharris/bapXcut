@@ -237,7 +237,7 @@
                     android:id="@+id/tvExportDirectoryPath"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/str_downloads_librecuts"
+                    android:text="@string/str_downloads_bapxcut"
                     android:textColor="@color/iconSecondary"
                     android:textSize="12sp"
                     android:layout_marginTop="4dp"

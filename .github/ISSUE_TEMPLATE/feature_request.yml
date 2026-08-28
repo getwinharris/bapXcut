@@ -1,18 +1,18 @@
 name: ✨ Feature Request
-description: Suggest a feature, editing tool, or UI enhancement for LibreCuts
+description: Suggest a feature, editing tool, or UI enhancement for bapXcut
 title: '[Feature]: '
 labels: ['enhancement']
 body:
   - type: markdown
     attributes:
       value: |
-        Have an idea for a new feature, video effect, or workflow improvement in **LibreCuts**? We would love to hear it!
+        Have an idea for a new feature, video effect, or workflow improvement in **bapXcut**? We would love to hear it!
 
   - type: dropdown
     id: feature_category
     attributes:
       label: Feature Category
-      description: Which area of LibreCuts does this feature relate to?
+      description: Which area of bapXcut does this feature relate to?
       options:
         - Timeline & Cut / Split Tools
         - Transitions & Visual Effects
@@ -37,7 +37,7 @@ body:
     id: solution
     attributes:
       label: Proposed Solution / Feature Idea
-      description: Describe the feature you would like to see added to LibreCuts.
+      description: Describe the feature you would like to see added to bapXcut.
       placeholder: E.g., Add a snapping feature for text overlays to lock onto clip boundaries...
     validations:
       required: true

@@ -299,7 +299,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="@string/str_default_movies_librecuts"
+                        android:text="@string/str_default_movies_bapxcut"
                         android:textColor="@color/iconSecondary"
                         android:textSize="13sp" />
                 </LinearLayout>
@@ -334,7 +334,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="@string/str_default_music_librecuts"
+                        android:text="@string/str_default_music_bapxcut"
                         android:textColor="@color/iconSecondary"
                         android:textSize="13sp" />
                 </LinearLayout>
@@ -369,7 +369,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="@string/str_default_pictures_librecuts"
+                        android:text="@string/str_default_pictures_bapxcut"
                         android:textColor="@color/iconSecondary"
                         android:textSize="13sp" />
                 </LinearLayout>
@@ -663,7 +663,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:gravity="center"
-                    android:text="@string/str_librecuts_is_open_source_help"
+                    android:text="@string/str_bapxcut_is_open_source_help"
                     android:textColor="@color/iconSecondary"
                     android:textSize="13sp" />
 

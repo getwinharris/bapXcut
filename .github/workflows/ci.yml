@@ -21,6 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+      - name: Verify repository map
+        run: |
+          python3 -m unittest discover -s tests
+          python3 generate_repo_map_mmd.py --check
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
@@ -40,6 +44,15 @@ jobs:
           path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
           retention-days: 14
+      - name: Upload unit test reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: unit-tests-${{ github.sha }}
+          path: |
+            app/build/reports/tests/testDebugUnitTest/
+            app/build/test-results/testDebugUnitTest/
+          if-no-files-found: ignore
       - name: Upload lint report
         if: always()
         uses: actions/upload-artifact@v7

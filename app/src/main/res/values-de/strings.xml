@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LibreCuts</string>
+    <string name="app_name">bapXcut</string>
     <string name="str_loop">Schleife</string>
     <string name="trim">Kürzen</string>
     <string name="split">Teilen</string>
@@ -21,7 +21,7 @@
     <string name="str_medium_quality_default">Mittlere Qualität (Standard)</string>
     <string name="str_balanced_quality_and_file_size">Ausgewogene Qualität und Dateigröße</string>
     <string name="str_best_visual_quality_larger_fil">Beste Bildqualität, größere Datei</string>
-    <string name="str_downloads_librecuts">Downloads/LibreCuts</string>
+    <string name="str_downloads_bapxcut">Downloads/bapXcut</string>
     <string name="str_timeline_empty">Zeitleiste leer</string>
     <string name="str_high_quality_1080p_original">Hohe Qualität (1080p/Original)</string>
     <string name="str_smallest_file_size_fastest_exp">Kleinste Datei, schnellster Export</string>
@@ -49,9 +49,9 @@
     <string name="toast_audio_track_added">Audiospur hinzugefügt</string>
     <string name="toast_export_cancelled">Export abgebrochen</string>
     <string name="str_trim_video">Video kürzen</string>
-    <string name="str_sponsor_project">Sponsore das Projekt</string>
+    <string name="str_sponsor_project">bapX Website</string>
     <string name="str_made_by_tharun_birla">Entwickelt von Tharun Birla</string>
-    <string name="str_discord_server">Discord Server</string>
+    <string name="str_discord_server">Community Support</string>
     <string name="str_brightness_0">Helligkeit: 0</string>
     <string name="str_a_privacy_friendly_open_source">Ein datenschutzfreundlicher Open-Source-Videoeditor für Android.\nExportiere Videos lokal und komplett ohne Wasserzeichen.</string>
     <string name="str_transitions">Übergänge</string>
@@ -87,9 +87,9 @@
     <string name="str_general">Allgemein</string>
     <string name="str_crop_aspect_ratio">Seitenverhältnis zuschneiden</string>
     <string name="str_if_you_encounter_any_export_is">Falls Probleme beim Export oder der Darstellung auftreten, tippe hier um unsere Wiki-Anleitung zur Fehlerbehebung und zu Fehlercodes zu lesen.</string>
-    <string name="str_github_sponsors">GitHub Sponsoren</string>
+    <string name="str_github_sponsors">bapX Website</string>
     <string name="str_show_your_appreciation_by_star">Zeige deine Wertschätzung, indem du dem Repo einen Stern gibst</string>
-    <string name="str_librecuts_is_open_source_help">LibreCuts ist Open-Source. Hilf uns besser zu werden, in dem du dem Projekt einen Stern auf GitHub gibst oder Fehler meldest.</string>
+    <string name="str_bapxcut_is_open_source_help">bapXcut ist Open-Source. Hilf uns besser zu werden, in dem du dem Projekt einen Stern auf GitHub gibst oder Fehler meldest.</string>
     <string name="str_star_on_github">Stern auf GitHub geben</string>
     <string name="str_open_source_licenses">Open Source Lizenzen</string>
     <string name="str_view_third_party_software_licenses">Zeige Software Lizenzen von Drittanbietern</string>
@@ -114,7 +114,7 @@
     <string name="str_9_16">9:16</string>
     <string name="str_1_1">1:1</string>
     <string name="str_voice_over">Sprachaufnahme</string>
-    <string name="str_default_movies_librecuts">Standard (Movies/LibreCuts)</string>
+    <string name="str_default_movies_bapxcut">Standard (Movies/bapXcut)</string>
     <string name="toast_microphone_permission_required">Mikrofon-Berechtigung für Sprachaufnahme benötigt</string>
     <string name="toast_snapping_enabled">Einrasten ein</string>
     <string name="toast_snapping_disabled">Einrasten aus</string>
@@ -151,14 +151,14 @@
     <string name="str_video_export_folder">Video Exportverzeichnis</string>
     <string name="str_audio_export_folder">Audio Exportordner</string>
     <string name="str_snapshot_export_folder">Schnappschuss Exportordner</string>
-    <string name="str_default_music_librecuts">Standard (Music/LibreCuts)</string>
-    <string name="str_default_pictures_librecuts">Standard (Pictures/LibreCuts)</string>
+    <string name="str_default_music_bapxcut">Standard (Music/bapXcut)</string>
+    <string name="str_default_pictures_bapxcut">Standard (Pictures/bapXcut)</string>
     <string name="str_app_language">App Sprache</string>
     <string name="str_system_default">Systemstandard</string>
     <string name="str_opacity">Deckkraft</string>
     <string name="str_reset">Zurücksetzen</string>
-    <string name="str_help_translate">LibreCuts übersetzen</string>
-    <string name="str_contribute_translations_on_weblate">Übersetzungen auf Weblate beitragen</string>
+    <string name="str_help_translate">bapXcut übersetzen</string>
+    <string name="str_contribute_translations_on_weblate">Contribute translations on GitHub</string>
     <string name="str_fullscreen_editor">Vollbildeditor</string>
     <string name="str_fullscreen_editor_desc">Status- und Navigationsleiste während Bearbeitung verstecken</string>
     <string name="str_fullscreen_enabled_desc">Aktiviert (Status- und Navigationsleiste verstecken)</string>

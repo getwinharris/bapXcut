@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LibreCuts</string>
+    <string name="app_name">bapXcut</string>
     <string name="trim">Bijsnijden</string>
     <string name="split">Splitsen</string>
     <string name="export">Exporteren</string>
@@ -17,7 +17,7 @@
     <string name="str_low_quality_fastest">Lage kwaliteit (Snelste)</string>
     <string name="str_smallest_file_size_fastest_exp">Kleinste bestand, snelste export</string>
     <string name="str_export_location">Exportlocatie</string>
-    <string name="str_downloads_librecuts">Downloads/LibreCuts</string>
+    <string name="str_downloads_bapxcut">Downloads/bapXcut</string>
     <string name="str_preview">VOORBEELD</string>
     <string name="str_0_00_0_00">0:00 / 0:00</string>
     <string name="str_timeline_empty">Tijdlijn leeg</string>
@@ -77,25 +77,25 @@
     <string name="str_settings">Instellingen</string>
     <string name="str_general">Algemeen</string>
     <string name="str_export_folder">Exportmap</string>
-    <string name="str_default_movies_librecuts">Standaard (Movies/LibreCuts)</string>
+    <string name="str_default_movies_bapxcut">Standaard (Movies/bapXcut)</string>
     <string name="str_check_for_updates">Controleren op updates</string>
     <string name="str_manually_check_for_the_latest">Handmatig op updates controleren</string>
     <string name="str_v1_0_beta4">v1.0-beta5</string>
     <string name="str_a_privacy_friendly_open_source">Een privacy vriendelijke, open source videobewerker voor Android.\nExporteer watermerkvrije video\'s lokaal.</string>
     <string name="str_support_amp_feedback">Ondersteuning &amp; Feedback</string>
-    <string name="str_librecuts_is_open_source_help">LibreCuts is open source. Help ons door het project op GitHub een sterretje te geven of bugs te melden.</string>
+    <string name="str_bapxcut_is_open_source_help">bapXcut is open source. Help ons door het project op GitHub een sterretje te geven of bugs te melden.</string>
     <string name="str_star_on_github">Ster op GitHub</string>
     <string name="str_report_a_bug">Fout melden</string>
-    <string name="str_sponsor_project">Project sponsoren</string>
+    <string name="str_sponsor_project">bapX Website</string>
     <string name="str_made_by_tharun_birla">Gemaakt door Tharun Birla</string>
     <string name="str_0_0s">0.0s</string>
     <string name="str_version_1_0">Versie 1.0</string>
     <string name="str_free_open_source_limitless">Gratis. Open-Source. Grenzeloos.</string>
     <string name="str_community_amp_support">COMMUNITY &amp; ONDERSTEUNING</string>
     <string name="str_show_your_appreciation_by_star">Toon je waardering door de rep een ster te geven</string>
-    <string name="str_github_sponsors">GitHub Sponsors</string>
+    <string name="str_github_sponsors">bapX Website</string>
     <string name="str_support_our_open_source_develo">Steun onze open source ontwikkeling direct</string>
-    <string name="str_discord_server">Discord Server</string>
+    <string name="str_discord_server">Community Support</string>
     <string name="str_troubleshooting_amp_wiki_guide">Problemen oplossen en Wiki Gids</string>
     <string name="str_if_you_encounter_any_export_is">Als je exportproblemen of renderfouten hebt, tik hier om onze wikigids voor probleemoplossing en foutcodes te lezen.</string>
     <string name="str_get_started">Aan de slag</string>
@@ -138,14 +138,14 @@
     <string name="str_video_export_folder">Video exportmap</string>
     <string name="str_audio_export_folder">Audio exportmap</string>
     <string name="str_snapshot_export_folder">Plaatjes exportmap</string>
-    <string name="str_default_music_librecuts">Standaard (Music/LibreCuts)</string>
-    <string name="str_default_pictures_librecuts">Standaard (Pictures/LibreCuts)</string>
+    <string name="str_default_music_bapxcut">Standaard (Music/bapXcut)</string>
+    <string name="str_default_pictures_bapxcut">Standaard (Pictures/bapXcut)</string>
     <string name="str_app_language">App taal</string>
     <string name="str_system_default">Systeemtaal</string>
     <string name="str_opacity">Doorzichtigheid</string>
     <string name="str_reset">Opnieuw instellen</string>
-    <string name="str_help_translate">Vertaal LibreCuts</string>
-    <string name="str_contribute_translations_on_weblate">Vertalingen op Weblate bijdragen</string>
+    <string name="str_help_translate">Vertaal bapXcut</string>
+    <string name="str_contribute_translations_on_weblate">Contribute translations on GitHub</string>
     <string name="str_fullscreen_editor">Volledig scherm</string>
     <string name="str_fullscreen_editor_desc">Statusbalk en navigatiebalk verbergen tijdens het bewerken</string>
     <string name="str_fullscreen_enabled_desc">Ingeschakeld (verbergt status &amp; navigatiebalk)</string>

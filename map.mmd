@@ -1,0 +1,107 @@
+graph TD
+    %% Auto-generated bapXcut Kotlin file-reference overview.
+    %% Lexical references may include comments or strings; not a runtime call graph.
+    subgraph UI
+        BrushSizeDotView[BrushSizeDotView]
+        CropOverlayView[CropOverlayView]
+        CustomFileExplorerBottomSheet[CustomFileExplorerBottomSheet]
+        CustomVideoSeeker[CustomVideoSeeker]
+        DraggableImageOverlayView[DraggableImageOverlayView]
+        DraggableTextOverlayView[DraggableTextOverlayView]
+        ErrorDisplayActivity[ErrorDisplayActivity]
+        HSVColorPickerView[HSVColorPickerView]
+        HandwritingCanvasView[HandwritingCanvasView]
+        ImageOverlayView[ImageOverlayView]
+        MainActivity[MainActivity]
+        MaskedFrameLayout[MaskedFrameLayout]
+        MediaPickerBottomSheet[MediaPickerBottomSheet]
+        ProjectImportActivity[ProjectImportActivity]
+        TextOverlayView[TextOverlayView]
+        TimeRulerView[TimeRulerView]
+        TrackTrimView[TrackTrimView]
+        TransitionPreviewOverlayView[TransitionPreviewOverlayView]
+        VideoEditingActivity[VideoEditingActivity]
+        VideoMaskOverlayView[VideoMaskOverlayView]
+    end
+    subgraph VM
+        VideoEditingViewModel[VideoEditingViewModel]
+        VideoEditingViewModelExt[VideoEditingViewModelExt]
+    end
+    subgraph Service
+        ExportService[ExportService]
+        FFmpegRenderEngine[FFmpegRenderEngine]
+        ProxyGenerationService[ProxyGenerationService]
+    end
+    subgraph Model
+        EditOperation[EditOperation]
+        VideoProject[VideoProject]
+    end
+    subgraph Command
+        EditCommand[EditCommand]
+    end
+    subgraph Other
+        AudioAnalyzer[AudioAnalyzer]
+        AudioWaveformExtractor[AudioWaveformExtractor]
+        BapxCutApplication[BapxCutApplication]
+        FontManager[FontManager]
+        FrameAdapter[FrameAdapter]
+        ProjectSerializer[ProjectSerializer]
+        SubtitleParser[SubtitleParser]
+    end
+    BapxCutApplication --> ErrorDisplayActivity
+    CustomVideoSeeker --> TimeRulerView
+    DraggableImageOverlayView --> EditOperation
+    DraggableTextOverlayView --> EditOperation
+    EditCommand --> EditOperation
+    EditCommand --> VideoProject
+    ErrorDisplayActivity --> MainActivity
+    ExportService --> FFmpegRenderEngine
+    ExportService --> MainActivity
+    ImageOverlayView --> EditOperation
+    MainActivity --> MediaPickerBottomSheet
+    MainActivity --> ProjectImportActivity
+    MainActivity --> VideoEditingActivity
+    MaskedFrameLayout --> EditOperation
+    ProjectImportActivity --> EditOperation
+    ProjectImportActivity --> MediaPickerBottomSheet
+    ProjectImportActivity --> ProjectSerializer
+    ProjectImportActivity --> ProxyGenerationService
+    ProjectImportActivity --> VideoEditingActivity
+    ProjectSerializer --> EditOperation
+    ProxyGenerationService --> FFmpegRenderEngine
+    TextOverlayView --> EditOperation
+    VideoEditingActivity --> AudioAnalyzer
+    VideoEditingActivity --> AudioWaveformExtractor
+    VideoEditingActivity --> BrushSizeDotView
+    VideoEditingActivity --> CropOverlayView
+    VideoEditingActivity --> CustomVideoSeeker
+    VideoEditingActivity --> DraggableImageOverlayView
+    VideoEditingActivity --> DraggableTextOverlayView
+    VideoEditingActivity --> EditOperation
+    VideoEditingActivity --> ErrorDisplayActivity
+    VideoEditingActivity --> ExportService
+    VideoEditingActivity --> FFmpegRenderEngine
+    VideoEditingActivity --> FontManager
+    VideoEditingActivity --> FrameAdapter
+    VideoEditingActivity --> HSVColorPickerView
+    VideoEditingActivity --> HandwritingCanvasView
+    VideoEditingActivity --> ImageOverlayView
+    VideoEditingActivity --> MaskedFrameLayout
+    VideoEditingActivity --> MediaPickerBottomSheet
+    VideoEditingActivity --> ProjectSerializer
+    VideoEditingActivity --> ProxyGenerationService
+    VideoEditingActivity --> SubtitleParser
+    VideoEditingActivity --> TextOverlayView
+    VideoEditingActivity --> TimeRulerView
+    VideoEditingActivity --> TrackTrimView
+    VideoEditingActivity --> TransitionPreviewOverlayView
+    VideoEditingActivity --> VideoEditingViewModel
+    VideoEditingActivity --> VideoMaskOverlayView
+    VideoEditingActivity --> VideoProject
+    VideoEditingViewModel --> EditCommand
+    VideoEditingViewModel --> EditOperation
+    VideoEditingViewModel --> VideoProject
+    VideoEditingViewModelExt --> EditOperation
+    VideoEditingViewModelExt --> VideoEditingViewModel
+    VideoMaskOverlayView --> EditOperation
+    VideoProject --> EditOperation

@@ -14,7 +14,7 @@
     <string name="str_low_quality_fastest">Baja calidad (Más rápido)</string>
     <string name="str_smallest_file_size_fastest_exp">Menor tamaño de archivo, exportación más rápida</string>
     <string name="str_export_location">Ubicación de exportación</string>
-    <string name="str_downloads_librecuts">Downloads/LibreCuts</string>
+    <string name="str_downloads_bapxcut">Downloads/bapXcut</string>
     <string name="str_preview">VISTA PREVIA</string>
     <string name="str_timeline_empty">La línea de tiempo está vacía</string>
     <string name="str_import_video">Importar video</string>

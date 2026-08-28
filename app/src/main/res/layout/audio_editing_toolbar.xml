@@ -81,7 +81,7 @@
                 android:textSize="12sp"/>
         </LinearLayout>
 
-        <com.tharunbirla.librecuts.customviews.TrackTrimView
+        <com.getwinharris.bapxcut.customviews.TrackTrimView
             android:id="@+id/audioTrimTrack"
             android:layout_width="match_parent"
             android:layout_height="40dp"

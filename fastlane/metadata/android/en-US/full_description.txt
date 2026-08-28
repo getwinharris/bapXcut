@@ -1,6 +1,6 @@
-<p>LibreCuts is a free and open-source video editor for Android focused on simplicity, performance, and privacy. Edit and export watermark free videos entirely on your device.</p>
+<p>bapXcut is a free and open-source video editor for Android focused on simplicity, performance, and privacy. Edit and export watermark free videos entirely on your device.</p>
 
-<p><b>Note:</b> LibreCuts is currently in beta. You may encounter bugs, instability, or incomplete features as development continues.</p>
+<p><b>Note:</b> bapXcut is currently in beta. You may encounter bugs, instability, or incomplete features as development continues.</p>
 
 <p><b>Features</b></p>
 

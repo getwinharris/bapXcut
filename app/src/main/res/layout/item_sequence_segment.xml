@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.tharunbirla.librecuts.customviews.TrackTrimView
+    <com.getwinharris.bapxcut.customviews.TrackTrimView
         android:id="@+id/segmentTrimTrack"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

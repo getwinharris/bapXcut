@@ -24,7 +24,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
 
     <application
-        android:name=".LibreCutsApplication"
+        android:name=".BapxCutApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

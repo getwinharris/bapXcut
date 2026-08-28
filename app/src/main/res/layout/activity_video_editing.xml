@@ -157,7 +157,7 @@
                     android:scaleType="centerCrop"
                     android:background="@color/cinemaBlack" />
 
-                <com.tharunbirla.librecuts.customviews.MaskedFrameLayout
+                <com.getwinharris.bapxcut.customviews.MaskedFrameLayout
                     android:id="@+id/mainVideoMaskContainer"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -178,50 +178,50 @@
                         android:background="@android:color/transparent"
                         app:shutter_background_color="@android:color/transparent"/>
 
-                    <com.tharunbirla.librecuts.customviews.TransitionPreviewOverlayView
+                    <com.getwinharris.bapxcut.customviews.TransitionPreviewOverlayView
                         android:id="@+id/transitionPreviewOverlayView"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:visibility="gone"/>
-                </com.tharunbirla.librecuts.customviews.MaskedFrameLayout>
+                </com.getwinharris.bapxcut.customviews.MaskedFrameLayout>
             </FrameLayout>
 
 
-            <com.tharunbirla.librecuts.customviews.TextOverlayView
+            <com.getwinharris.bapxcut.customviews.TextOverlayView
                 android:id="@+id/textOverlayView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
 
-            <com.tharunbirla.librecuts.customviews.DraggableTextOverlayView
+            <com.getwinharris.bapxcut.customviews.DraggableTextOverlayView
                 android:id="@+id/draggableTextOverlay"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="gone" />
 
-            <com.tharunbirla.librecuts.customviews.ImageOverlayView
+            <com.getwinharris.bapxcut.customviews.ImageOverlayView
                 android:id="@+id/imageOverlayView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
 
-            <com.tharunbirla.librecuts.customviews.DraggableImageOverlayView
+            <com.getwinharris.bapxcut.customviews.DraggableImageOverlayView
                 android:id="@+id/draggableImageOverlay"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="gone" />
 
-            <com.tharunbirla.librecuts.customviews.CropOverlayView
+            <com.getwinharris.bapxcut.customviews.CropOverlayView
                 android:id="@+id/cropOverlayView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="gone" />
 
-            <com.tharunbirla.librecuts.customviews.VideoMaskOverlayView
+            <com.getwinharris.bapxcut.customviews.VideoMaskOverlayView
                 android:id="@+id/videoMaskOverlayView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="gone" />
 
-            <com.tharunbirla.librecuts.customviews.HandwritingCanvasView
+            <com.getwinharris.bapxcut.customviews.HandwritingCanvasView
                 android:id="@+id/handwritingCanvasView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -409,7 +409,7 @@
                         android:orientation="vertical"
                         android:clipChildren="false">
 
-                        <com.tharunbirla.librecuts.customviews.TimeRulerView
+                        <com.getwinharris.bapxcut.customviews.TimeRulerView
                             android:id="@+id/timeRulerView"
                             android:layout_width="wrap_content"
                             android:layout_height="28dp"
@@ -493,7 +493,7 @@
                     android:padding="8dp"
                     app:tint="@color/colorOnPrimary" />
 
-                <com.tharunbirla.librecuts.customviews.CustomVideoSeeker
+                <com.getwinharris.bapxcut.customviews.CustomVideoSeeker
                     android:id="@+id/customVideoSeeker"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

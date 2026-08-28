@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="str_loop">Loop</string>
-    <string name="app_name">LibreCuts</string>
+    <string name="app_name">bapXcut</string>
     <string name="trim">Cortar</string>
     <string name="split">Dividir</string>
     <string name="export">Exportar</string>
@@ -18,7 +18,7 @@
     <string name="str_low_quality_fastest">Baixa Qualidade (Mais rápido)</string>
     <string name="str_smallest_file_size_fastest_exp">Menor tamanho de arquivo, exportação mais rápida</string>
     <string name="str_export_location">Localização da exportação</string>
-    <string name="str_downloads_librecuts">Downloads/LibreCuts</string>
+    <string name="str_downloads_bapxcut">Downloads/bapXcut</string>
     <string name="str_preview">PRÉVIA</string>
     <string name="str_0_00_0_00">0:00 / 0:00</string>
     <string name="str_timeline_empty">Linha do tempo vazia</string>
@@ -82,15 +82,15 @@
     <string name="str_settings">Configurações</string>
     <string name="str_general">Geral</string>
     <string name="str_export_folder">Exportar Pasta</string>
-    <string name="str_default_movies_librecuts">Padrão (Movies/LibreCuts)</string>
+    <string name="str_default_movies_bapxcut">Padrão (Movies/bapXcut)</string>
     <string name="str_check_for_updates">Verificar Atualizações</string>
     <string name="str_manually_check_for_the_latest">Verifique manualmente se existe uma versão mais recente</string>
     <string name="str_v1_0_beta4">v1.0-beta5</string>
     <string name="str_a_privacy_friendly_open_source">Um editor de vídeo de código aberto para Android que respeita a privacidade.\nExporte vídeos sem marca d\'água para o dispositivo.</string>
     <string name="str_support_amp_feedback">Apoio e comentários</string>
-    <string name="str_librecuts_is_open_source_help">O LibreCuts é um projeto de código aberto. Ajude-nos a melhorá-lo, adicionando o projeto aos seus favoritos no GitHub ou comunicando erros.</string>
+    <string name="str_bapxcut_is_open_source_help">O bapXcut é um projeto de código aberto. Ajude-nos a melhorá-lo, adicionando o projeto aos seus favoritos no GitHub ou comunicando erros.</string>
     <string name="str_star_on_github">Marcar como favorito no GitHub</string>
     <string name="str_report_a_bug">Reportar um Erro</string>
-    <string name="str_sponsor_project">Apoiar o Projeto</string>
+    <string name="str_sponsor_project">bapX Website</string>
     <string name="str_made_by_tharun_birla">Feito por Tharun Birla</string>
 </resources>
