@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="str_loop">حلقة</string>
-    <string name="app_name">ليبر كاتس</string>
+    <string name="app_name">bapXcut</string>
     <string name="trim">قص</string>
     <string name="split">تقسيم</string>
     <string name="export">تصدير</string>
