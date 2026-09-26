@@ -1,0 +1,24 @@
+{
+  "model": "Cactus-Compute/needle3",
+  "revision": "b274efcb211a9eef48c9a88da4b43bd569696a39",
+  "license": "Apache-2.0",
+  "abi": "arm64-v8a",
+  "distribution": "weights embedded in native library",
+  "files": [
+    {
+      "path": "android-arm64/libneedle.a",
+      "sha256": "5e0a5daaadca1fbe1c518110bee6bbb1cc97a5e53a16a1e964d0af0186eac60a",
+      "size": 1663992
+    },
+    {
+      "path": "android-arm64/needle.h",
+      "sha256": "3aa713942528d944598458cecb4a262f2cc49349bec63355f91df0b159964e55",
+      "size": 1187
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    }
+  ]
+}
