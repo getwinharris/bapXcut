@@ -28,3 +28,11 @@
 - Remaining old text: upstream attribution and historical changelog. `src/images/featureGraphic.png` visibly retains upstream name/pink UI; historical screenshots and artwork need replacement before release promotion.
 - Remaining workflow improvements: pinned Android build container; reviewed Roborazzi baselines and device import/edit/export CUJs; reconcile the separate non-Git local experimental source folder before publishing its AI work.
 - This outcome update changes documentation only; the application and tests are identical to the passing CI commit. No signed release was created.
+
+## 2026-08-28 Needle2 fine-tuning research
+- Refs #2. Added docs/ai/NEEDLE2_FINETUNING.md, five proposed tool schemas and seven seed format examples on docs/2-needle2-finetuning. No training, engine execution or Android integration was performed.
+- Verified app minSdk 26/target 34, local ARM64 binary, package cactus-needle 2.0.10 and its engine 2.0.3 setting, HF revision 98fbd955b0347e78059be0c253cc1ffa09b87bc7, Android file hashes and needle_load C API.
+- Train LoRA on checkpoint, export tuned .cact, load before init via native bridge; check format/engine compatibility on device. Base weights are embedded; tuned override is an additional file.
+- Existing writable filesDir execution conflicts with Android 10+ target-29+ restrictions. Recommend APK-packaged JNI integration; API-26 compatibility and supported ABIs still require verification.
+- Tuned confidence is not calibrated. Documented tool/argument evaluation and safety validation are required, not just training loss.
+- Validated JSON structure/tool names/required arguments for seed examples. They are not a sufficient dataset; no accuracy claims.

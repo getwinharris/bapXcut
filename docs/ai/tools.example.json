@@ -1,0 +1,78 @@
+[
+  {
+    "name": "trim_main",
+    "description": "Keep the selected main video interval; times are milliseconds.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "start_ms": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end_ms": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "start_ms",
+        "end_ms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "set_speed",
+    "description": "Set main video playback speed as a positive multiplier.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "multiplier": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "multiplier"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "mute_main",
+    "description": "Mute the original main video audio.",
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "add_text",
+    "description": "Add the exact requested text using app-selected styling.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "undo",
+    "description": "Undo the most recent edit.",
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+]
